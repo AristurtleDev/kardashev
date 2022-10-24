@@ -1,6 +1,8 @@
 # Kardashev
 Kardashev is a C#/.NET class library used to process MARC-21 records from a binary encoded .marc file.  The library provides a `MarcStreamReader` class that can be used to read the contents of large MARC-21 files as a stream while processing them in your consuming application.
 
+![build-and-test](https://github.com/ECULibraries/kardashev/actions/workflows/build-and-test.yml/badge.svg)
+
 ## Why the name "Kardashev"
 The Kardashev scale, proposed by Nikolai Kardashev in 1964, is a method of measuring a civilization's level of technological advancement based on the amount of energy it is able to use.  Given this, I felt it was the only accurate scale that could define the amount of energy it took to learn the MARC-21 format.  Based on this information and the amount of energy able and needed to use to understand MARC-21, this project would be rated as a Type III civilization; in possesion of energy at the scale of its own galazxy with an energy consumption of ≈4×10<sup>44</sup> marc-21/sec.
 
