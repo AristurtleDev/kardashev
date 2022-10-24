@@ -1,0 +1,41 @@
+MARC8 License
+
+The MARC8 Encoding class file found in /source/Kardashev/Encodings/MARC8 is from
+CSharp_MARC (https://github.com/afrozenpeach/CSharp_MARC) by Mattie Schraeder
+which is based on the File_MARC package (http://pear.php.net/package/File_MARC)
+by Dan Scott, which was based on the PHP MARC package, originally called
+"php-marc", that is part of the Emilda Project (http://www.emilda.org).
+
+GetChars() and AppendUnicodeCharacter based on code from SobekCM() Marc
+Library https://sourceforge.net/projects/marclibrary/
+
+In all instances, the source code found in this file for the MARC8 class is
+released under the GNU Lesser General Public License. The CSharp_Marc version
+comes with the following notice
+
+BEGIN NOTICE
+
+This program is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option)
+any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+more details.
+
+You should have received a copy of the GNU General Public License along
+with this program. If not, see <https://www.gnu.org/licenses/>.
+
+@author    Mattie Schraeder <mattie@csharpmarc.net>
+@copyright 2009-2022 Mattie Schraeder and Bound to Stay Bound Books <http://www.btsb.com>
+@license   http://www.gnu.org/copyleft/lesser.html  LGPL License 3
+
+END NOTICE
+
+It is my understanding that by using this class file, this will fall under the
+"5. Combined Libraries" section of the license.  As such, I have in good faith
+given promenant notice that this is based on CSharp_Marc by Mattie Schraeder,
+which again can be found at https://github.com/afrozenpeach/CSharp_MARC and have
+conveyed this class file under the same GNU LGPL License.
