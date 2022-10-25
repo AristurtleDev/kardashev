@@ -155,3 +155,10 @@ public class Program
 Kardashev is released under the MIT License with the exception of the `/source/Kardashev/Encodings/MARC8.cs` file, which is released under the GNU Lesser General Public License.  For more infomration on these individual licenses, please refer to the following
 * Kardashev License - [MIT License Notice](LICENSE)
 * MARC8.cs License - [GNU Lesser General Public Notice](MARC8LICENSE)
+
+## Acknowledgement
+I wanted to give awknowledgement to two other projects that were great sources of understanding as I went through reading up on the MARC-21 format and putting together the pattern parsing.
+
+First would be the [CSharp_MARC](https://github.com/afrozenpeach/CSharp_MARC/) library by @afrozenpeach. This project was a great resource and provided the MARC8 Encoding port in C# as well.  The actual MARC Editor application itself is really cool and something that I've used a lot in the past when tracking down issues in MARC records tha we ingest.
+
+Second would be [Traject](https://github.com/traject/traject) @traject, initially create by Jonathan Rochkind (John Hopkins Library) and Bill Dueber (University of Michigan).  This is where the bases for the pattern matching for this library comes from.  I was mostly familr with the pattern matching since traject is used under the hood in Project Blacklight. I wanted an already familar system in place when creating this library and did my best to mirror it.
